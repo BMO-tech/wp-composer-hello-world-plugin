@@ -7,9 +7,9 @@
  * Version:         0.1.0
  */
 
-function append_hello_world_to_title($title, $id)
+function spwpc_init()
 {
-    $message = 'Hello from the Sky!';
-    return "$title - $message";
+    $spwpc = new SPWPC;
+    $spwpc->hooks();
 }
-add_filter('the_title', 'append_hello_world_to_title', 10, 2);
+add_action('plugins_loaded', 'spwpc_init');
