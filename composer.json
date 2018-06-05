@@ -10,5 +10,4 @@
 	"require": {
 		"composer/installers": "~1.0"
 	}
-
 }
