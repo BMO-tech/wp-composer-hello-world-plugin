@@ -1,0 +1,14 @@
+{
+	"name": "SkyPress/wp-composer-hello-world",
+	"description": "WP Composer Test Hello World Plugin",
+	"license": "MIT",
+	"authors": [{
+		"name": "BMO",
+		"email": "bmo@skypress.io"
+	}],
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+
+}
