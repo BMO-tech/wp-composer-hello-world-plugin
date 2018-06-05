@@ -9,7 +9,7 @@
 
 function spwpc_init()
 {
-    $spwpc = new SPWPC;
+    $spwpc = new SPWPC\Init();
     $spwpc->hooks();
 }
 add_action('plugins_loaded', 'spwpc_init');
